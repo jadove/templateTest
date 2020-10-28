@@ -1,0 +1,38 @@
+$main-color: #43a9ff;
+$secondary-color: #eaebec;
+$red-color: #fe3254;
+
+.column {
+    float: left;
+    width: 50%;
+    height: 470px;
+    .space{
+        padding: 15%;
+    }
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  #background1{
+      background-image: url(../../../assets/images/ic1.png);
+      background-size: cover;
+  }
+  
+  #background2{
+      background-image: url(../../../assets/images/ic2.png);
+      background-size: cover;
+  }
+  
+  #text{
+      font-family: regular;
+      background-color: #f7f8fb;
+      p{
+          line-height: 50px;
+          color: $secondary-color;
+      }
+  }

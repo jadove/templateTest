@@ -1,0 +1,26 @@
+$main-color: #43a9ff;
+$secondary-color: #eaebec;
+$red-color: #fe3254;
+
+.textDiv{
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    font-family: regular;
+    h1{
+        margin-bottom: 100px;
+    }
+    p{
+        font-size: small;
+        color: $secondary-color;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+}
+
+.pictureDiv{
+    .image{
+        width: 100%;
+        margin-bottom: 0%;
+    }
+}

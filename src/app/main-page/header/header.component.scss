@@ -1,0 +1,27 @@
+$secondary-color: #eaebec;
+
+.imageDivider{
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: -200px;
+    .background{
+        width: 100%;
+    }
+}
+
+.textDivider{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    font-family: regular;
+    h1{
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: small;
+        color: $secondary-color;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,54 @@
+$main-color: #43a9ff;
+$secondary-color: #c6cace;
+$red-color: #fe3254;
+
+.column {
+  float: left;
+  width: 50%;
+  height: 470px;
+  background-color: #f7f8fb;
+  .space {
+    padding: 15%;
+  }
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.textDiv {
+  display: block;
+  margin-top: 13%;
+  margin-left: 10%;
+  margin-right: 30%;
+  font-family: regular;
+  h1 {
+    color: $red-color;
+    margin-bottom: 20px;
+  }
+  h4 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  p {
+    margin-top: 0px;
+    color: $secondary-color;
+    line-height: 40px;
+  }
+}
+
+#background {
+  background-image: url(../../../assets/images/Snowflake.png);
+  background-size: 500px;
+  background-attachment: local;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.image {
+  float: right;
+  height: 100%;
+}

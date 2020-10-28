@@ -1,0 +1,12 @@
+<div class="hello" *ngIf="!clicked">
+  <div>
+    <h1>{{title}}</h1>
+    <h3>{{subtitle}}</h3>
+  </div>
+  
+  <div>
+    <button (click)="click()" routerLink='/template'>Open Page</button>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

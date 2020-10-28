@@ -1,0 +1,16 @@
+<div class="titleDiv">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <h1>Lorem ipsum dolor sit amet</h1>
+</div>
+
+<div class="offersDiv">
+    <div class="row">
+        <div class="column" *ngFor="let offer of listOfOffers">
+            <app-offer [offer]='offer'></app-offer>
+        </div>
+    </div>
+</div>
+
+<div class="buttonDiv">
+    <app-button [name]="'CHECK OUR OFFERS'"></app-button>
+</div>

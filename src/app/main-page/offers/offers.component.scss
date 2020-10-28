@@ -1,0 +1,42 @@
+$main-color: #43a9ff;
+$secondary-color: #eaebec;
+
+.titleDiv{
+    text-align: center;
+    width: 100%;
+    font-family: regular;
+    margin-bottom: 100px;
+    h1{
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: small;
+        color: $secondary-color;
+        margin-top: 0px;
+    }
+}
+
+.offersDiv{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.buttonDiv{
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    font-family: regular;
+    margin-bottom: 150px;
+}
+
+.column {
+    float: left;
+    width: 23%;
+    padding: 10px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

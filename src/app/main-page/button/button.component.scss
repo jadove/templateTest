@@ -1,0 +1,21 @@
+$backgroundColor: white;
+$mainColor: #43a9ff;
+
+.button{
+    width: 180px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    color: $mainColor;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 100px 100px 100px 100px;
+    -moz-border-radius: 100px 100px 100px 100px;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    border: 0px solid #000000;
+}
+
+.shadow{
+    -webkit-box-shadow: 0px 11px 58px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 58px -16px rgba(0,0,0,0.75);
+    box-shadow: 0px 11px 58px -16px rgba(0,0,0,0.75);
+}
